@@ -1,0 +1,16 @@
+.page ul{
+    width:210px;
+    margin:0;
+    background: #ccc;
+}
+
+.page ul li {
+    float: left;
+    width: 50px;
+    text-align: center;
+}
+
+.page ul li a{
+    width:50px;
+    background: #ccc;
+}

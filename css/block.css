@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*服务员界面 购物车 详情页*/
+.sh{position: relative; margin-left: auto;margin-right: auto;  width: 890px;}
+.sh td{line-height: 36px;text-align: center;}
+.detailCon a{color: #00bff3;}
+.detailCon input{width: 39px;}
+.count{display: block;width: 119px;height: 90%;color: #fff; background-color: #ff761a;}
+.adjust{display: inline-block; width: 23px;height:23px; background-color: #c2c2c2;
+	line-height: 23px;text-align: center;}
+
+/*菜单页*/
+.menu {width: 100%; }
+.menu ul{height: 30px; margin: 0; float: left;}
+.menu ul li { width: 148px;text-align: center;margin: 1px 0 0 0;}
+.menu ul li input {line-height: 26px;margin: 1px 0 0 0;}
+.menu ul li a {display: inline-block; line-height: 30px;width: 100%;background-color: #74adaa;}
+.clean{	clear: both;}
+.main{width:75%;height:500px; margin-left: 200px;}
+.main dl{width:190px;height:190px;margin:0 0 75px 16px;text-align: center; }
+.main dl dd{margin :5px 0 5px 10px;display:inline-block;}
+.main dl dd button{cursor: pointer;}
+.main dl dt{border:1px solid #999;border-radius:100px; margin-right: 8px;padding: 0;overflow: hidden;}
+.main dl dt img{width:17s0px;height:170px;}
+.page ul { margin-left: 10%;}
+.page ul li{float: left;}
+
+/*公告栏*/
+.announcement{position: relative;left: 150px;margin:0 10px 10px 0; width: 700px;height: 44px;}	
+
+/*热销榜*/
+.rexiao{position: absolute; width: 194px;height:510;overflow-y: auto;  top: 420px;}
+.rexiao p{margin: 0 0 0 42px;padding: 0;font-size: 18px;text-align: left;}
+.rexiao li {width: 130px;height: 120px;text-align: center;float: left;}
+.rexiao img{width: 90%;height: 90%; }
+
+/*销量图*/
+/*#container {position:absolute;top: 350px; width:700px;height: 400px;}		*/
+
+/*注册页*/
+.conMenu {margin-left: 37%; position: absolute;top: 100px;}
+.conMenu tr{line-height: 55px;}
+.conMenu tr td input,.conMenu tr button{line-height: 20px;}
+.back_home {width:90px;height:50px; overflow:hidden;position:fixed;right:190px;bottom:20px;z-index:10;
+			background-color:#ff761a;line-height: 50px; font-size:16px;text-align:center;
+			color:#fff;cursor:pointer;}
+
+/*登录页*/
+.signIn {position: relative;margin: 40px auto 0 auto; 
+	opacity:0.9; -moz-opacity:0.9; filter:alpha(opacity=90)}
+	.signIn a:hover{color: #666;}
+	.signIn tr{line-height: 55px; text-align: center;}
+	.signIn tr td img{width: 40px;height: 40px;margin-right: 10px; }
+	.signIn tr td input{line-height: 20px;}
+	.button {width: 90px;}
+
+/*个人中心*/
+.conPersonal{ position:absolute; top: 30px;left: 140px;}
+.conLeft {float: left;}
+.conLeft img {width: 100px;height: 100px;}
+.conLeft a {display: block;text-align: center;padding-top: 15px; font-size: 18px;}
+.conright {float: left;margin-left: 50px;line-height: 40px;}
+.table,.book,.collect{position: relative;margin-left: auto;margin-right: auto;
+		width:890px;height:400px; }
+		dd,dl{margin:0;	padding:0; float: left;}
+		.book td,.table td{width: 170px;line-height: 30px;} 

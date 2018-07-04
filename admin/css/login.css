@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body{
+    font-size:14px;
+    color:#555;
+}
+
+form{
+    width:350px;
+    border:1px solid #ccc;
+    margin:200px auto 0 auto;
+    border-radius:4px;
+}
+
+h4{
+    height:30px;
+    line-height:30px;
+    background:#eee;
+    margin:0;
+    padding:0;
+    text-indent:20px;
+}
+
+form input.text{
+    width:200px;
+}
+
+form p{
+    text-indent:20px;
+}
+
+form button{
+    width:60px;
+    height:35px;
+    border:1px solid #ccc;
+    background:#fff;
+    color:#666;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+#code{
+    width:100px;
+    height:30px;
+    line-height:10px;
+    margin-left:3px;
+    border:1px solid #ccc;
+    position: absolute;
+    cursor:pointer;
+}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+body {
+    font-size: 14px;
+    overflow: hidden;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+table{
+    width:800px;
+    margin: 50px 20px 10px 30px;
+    text-align: center;
+    background: #eee;
+}
+
+form{
+    width:330px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    margin:50px auto;
+}
+
+form p{
+    text-indent:20px;
+}
+
+h4{
+    height:30px;
+    line-height:30px;
+    background:#eee;
+    margin:0;
+    padding:0;
+    text-indent:20px;
+}
+
+form button{
+    width:60px;
+    height:35px;
+    border:1px solid #ccc;
+    background:#fff;
+    color:#666;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.page{
+    width: 800px;
+    height:  35px;
+    line-height: 35px;
+    margin:0;
+    text-align: center;
+    background :#ccc;
+}
+
+.page ul{
+    margin:0 auto;
+}
+
+.page ul li{
+    display:inline;
+}
+.foodTable{
+    margin-bottom:0;
+}
+.page a{
+    color:#1f4933;
+     text-decoration: none;
+ }
+
+.page a:hover{
+    color:#06f;
+}
